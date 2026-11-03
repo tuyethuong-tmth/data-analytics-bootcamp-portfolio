@@ -131,9 +131,9 @@ FROM customers c
 GROUP BY 1;
 
 -- #5. Calculate a running total of revenue by `order_date`, and label each customer as 'VIP' (>$200 total) or 'Regular' using `CASE WHEN`
-SELECT c.name, order_date, o.order_total,
+SELECT order_date, c.customer_id, c.name, o.order_total,
 sum(o.order_total) over(ORDER BY order_date ASC) AS running_total,
-CASE WHEN sum(o.order_total) over(PARTITION BY c.customer_id) > 200 THEN 'VIP' ELSE 'Regular' END AS label
+CASE WHEN sum(o.order_total) over(PARTITION BY c.customer_id) > 200 THEN 'VIP' ELSE 'Regular' END AS 
 FROM customers c 
 INNER JOIN orders o ON c.customer_id = o.customer_id 
 WHERE o.status ='completed';
