@@ -1,0 +1,11 @@
+order_id,customer_name,country,order_date,product,quantity,price,status
+1001,An Nguyen,Vietnam,2023-01-05,Wireless Mouse,2,25.00,completed
+1002,Binh Tran, vietnam ,2023-01-10,Keyboard,1,45.00,completed
+1003,Chi Le,Vietnam,2023-01-15,Monitor,1,180.00,completed
+1004,An Nguyen,Vietnam,2023-02-01,Laptop Stand,,35.00,completed
+1005,Duc Pham,VIETNAM,2023-02-10,Headphones,2,,completed
+1006,Em Vo,Vietnam,2023-02-15,Monitor,1,180.00,cancelled
+1007,,Vietnam,2023-02-20,Webcam,1,75.00,completed
+1008,Giang Hoang,Vietnam,2023-03-01,Mouse Pad,3,15.00,completed
+1009,An Nguyen,Vietnam,2023-03-05,Keyboard,1,45.00,completed
+1010,Hoa Dinh,Vietnam,2023-03-10,Gaming Chair,1,8500.00,completed
