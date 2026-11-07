@@ -1,0 +1,11 @@
+transaction_id,customer_id,order_date,product,quantity,price,status
+T1001,C01,2023-01-05,Wireless Mouse,2,25.00,completed
+T1002,C02,2023-01-10,Keyboard,1,45.00,completed
+T1003,C03,2023-01-15,Monitor,1,180.00,completed
+T1004,C01,2023-02-01,Laptop Stand,1,35.00,completed
+T1005,C04,2023-02-10,Headphones,2,30.00,completed
+T1006,C05,2023-02-15,Monitor,1,180.00,cancelled
+T1007,C08,2023-02-20,Webcam,1,75.00,completed
+T1008,C06,2023-03-01,Mouse Pad,3,15.00,completed
+T1009,C01,2023-03-05,Keyboard,1,45.00,completed
+T1010,C07,2023-03-10,Gaming Chair,1,8500.00,completed
